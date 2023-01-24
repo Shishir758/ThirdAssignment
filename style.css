@@ -1,0 +1,122 @@
+:root {
+    --Poppins-font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+}
+p{
+    font-family: var(--Poppins-font-family);
+}
+
+.btn {
+    background: #B68C5A;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: var(--Poppins-font-family);
+    margin-left: 5px;
+
+}
+.search{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 75%;
+        margin: 0 auto;
+
+    }
+    .bannerText{
+   margin-top: -250px;
+        
+        }
+.bannerText h1{
+font-weight: 800;
+font-size: 72px;
+color: #FFFFFF;
+
+}
+.bannerText p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E7E7E7;
+    width: 75%;
+ 
+    
+    }
+
+.card1 {
+    width: 401px;
+    padding: 50px;   
+ 
+}
+.card1-border{
+    border-right: 1px solid #E7E7E7;
+}
+.card2 {
+    padding: 25px;
+    width: 25%;
+
+}
+
+.bg {
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+}
+
+.emai {
+    background-color: #B68C5A;
+    border-radius: 8px;
+    height: 72px;
+    width: 72px;
+}
+
+@media only screen and (max-width:576px) {
+    .bannerText h1{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .bannerText{
+        margin-top: -95px;
+        
+        }
+    .card1 {
+        padding: 10px;
+    }
+
+    .card2 {
+        padding: 25px;
+        width: 100%;
+
+    }
+
+    .photo {
+        width: 80px;
+        height: 80px;
+    }
+
+}
+
+@media only screen and (min-width:992px) {
+    .carouselText {
+        max-width: 992px;
+        padding: 75px;
+        margin-top: 75px;
+        margin-left: 65px;
+    }
+
+    .forFlex {
+        display: flex;
+    }
+
+    .accordion {
+        width: 50%;
+    }
+
+    .allCard {
+        display: flex;
+    }
+}
