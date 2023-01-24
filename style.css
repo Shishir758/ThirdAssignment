@@ -74,6 +74,18 @@ color: #FFFFFF;
     height: 72px;
     width: 72px;
 }
+.EmailBtn{
+    background: #f0edeb;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+
+
+/* Media Quareies */
 
 @media only screen and (max-width:576px) {
     .bannerText h1{
